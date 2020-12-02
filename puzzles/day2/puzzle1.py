@@ -1,11 +1,3 @@
-import re
-from collections import Counter
-
-with open("puzzles/day2/puzzle_input.txt") as f:
-    text = f.read()
-
-
-data = [row.split(":") for row in text.split("\n")]
 
 
 def checksum(check, password):
